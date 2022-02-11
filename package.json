@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "json-server --static . --watch data.json --middlewares ./node_modules/json-server-reset",
+    "start": "json-server --static public --watch data.json --middlewares ./node_modules/json-server-reset",
     "test": "echo \"Error: no test specified\" && exit 1",
     "reset": "node ./scripts/reset-database.js",
     "reset:db": "npm run reset",
